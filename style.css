@@ -1,0 +1,30 @@
+/* --------------------
+    common part
+    ------------------- */
+    
+    body{
+     font-family: 'Roboto', sans-serif;
+     padding: 0;
+     margin: 0;
+    }
+   .bold input{
+     border: 2px rgba(128, 128, 128, 0.476) solid;
+   }
+   .bold textarea{
+     border: 2px rgba(128, 128, 128, 0.476) solid;
+   }
+   .decoration a{
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: aliceblue;
+     border: 2px solid rgba(128, 128, 128, 0.634);
+     border-radius: 6px;
+     background-color: black;
+     margin-bottom: 10px;
+    }
+    .decoration img{
+     margin-left: 4px;
+     padding-right: 4px;
+    }
